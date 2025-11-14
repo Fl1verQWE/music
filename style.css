@@ -146,3 +146,29 @@ footer {
   color: #91b1b6;
   text-align: center;
 }
+
+.container-form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 28px;
+}
+
+.container-form .card {
+  background: #b6b291;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #000000;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.container-form .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 22px #ffdd00;
+}
+
+.container-form .desc {
+  margin: 0;
+  color: #737100;
+  font-size: 14px;
+}
